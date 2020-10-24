@@ -4,10 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}style="
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
@@ -80,6 +84,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Pesquisadoras</span>
     </div>
 
+      
+<div class="w3-row-padding" id="about" style="
+    display: flex;
+    flex-direction: row;
+    justify-content: center;">                                          
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
         <img src="Magda.png" alt="Magda" style="width:100%">
@@ -112,17 +121,22 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         </div>
       </div>
     </div>
+</div>
+                                                             
 
       </div>
     </div>
     
     <!-- Grid -->
+    
   <div id="sobre" class="w3-row w3-container">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Limited Vacancies</span>
     </div>
   </div>
-<p style="text-align: justify;">
+    <div style=" max-width: 1024px;
+    margin: auto;">
+<p style="text-align: justify; ">
                         Opportunity to understand the new classification
                         system and interact with researchers who participated
                         in the consensus workshop that determined the new
@@ -182,13 +196,15 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
                     </center>
                 </div>
         </div>
-
+</div>
   <!-- Contact -->
   <div class="w3-center w3-padding-64" id="contact">
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Quer Participar?</span>
   </div>
 
-  <form class="w3-container" action="/action_page.php" target="_blank">
+  <form class="w3-container" action="/action_page.php" target="_blank" style="
+    max-width: 600px;
+    margin: auto;">
             <div class="w3-section">
                 <label>Nome</label>
                 <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
