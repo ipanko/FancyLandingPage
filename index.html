@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Plans</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>MARKETING</b></h1>
+    <p>Em progresso</p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="banner.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/w3images/workbench.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Klorim tipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/w3images/sound.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Blorum pipsum</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+    
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Pesquisadoras</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="Magda.png" alt="Magda" style="width:100%">
+        <div class="w3-container">
+          <h3>Magda Feres</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>
+            ·Dean for Dental Research and Graduate Education, Full-time Researcher and Professor at Guarulhos University (Brazil)<br><p>
+            ·Associate professor at Forsyth Institute (A Harvard University affiliated research center, USA)<br><p>
+            ·PhD in Medical Sciences in Oral Biology (Harvard University, USA)
+          </p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="Belen.png" alt="Belen" style="width:100%">
+        <div class="w3-container">
+          <h3>Belén Retamal-Valdes</h3>
+          <p class="w3-opacity">Art Director</p>
+          <p>
+            ·Professor and Researcher at Guarulhos University (UNG, Brazil)<br><p>
+            ·PhD in Dentistry, Periodontology (UNG, Brazil)<br><p>
+            ·Master degree in Dentistry, Periodontology (UNG, Brazil)<br><p>
+            ·DDS (University of Talca, Chile)<br><p>
+          </p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+    
+    <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Limited Vacancies</span>
+    </div>
+  </div>
+    <div class="row" style="padding: 70px 0 70px 0;">
+        <div class="col-12">
+            <p style="text-align: justify;">
+                Opportunity to understand the new classification
+                system and interact with researchers who participated
+                in the consensus workshop that determined the new
+                classification scheme for periodontitis and proposed a
+                new classification system for endo-periodontal lesions.
+                Post-treatment health (stability) will also be discussed,
+                according to what was presented in the workshop and
+                with a new proposal of a clinical end point for
+                periodontal treatment (remission/control) based on the
+                treat-to-target approach (Feres et al. JIAP, 2020).
+            </p>
+        </div>
+    </div>
+        
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Quer Participar?</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+            <div class="w3-section">
+                <label>Nome</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+                <label>Estado</label>
+                <select name="estados-brasil" class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+            <div class="w3-section">
+                <label>Cidade</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+            </div>
+            <div class="w3-section">
+                <label>Email</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+            </div>
+            <div>
+   	            Atuação / Formação:
+   	            <div>
+                    <label for="grad">Graduação</label>
+                    <input type="radio" name="formacao" id="grad" value="Graduado(a)"/>  
+   	            </div>
+   	            <div>
+                    <label for="spec">Pós-graduação (especialização)</label>
+                    <input type="radio" name="formacao" id="spec" value="Pós-graduado(a) (especialização)"/>  
+   	            </div>
+   	            <div>
+                    <label for="doc">Pós-graduação (Mestrado / Doutorado)</label>
+                    <input type="radio" name="formacao" id="doc" value="Pós-graduado(a) (Mestrado ou Doutorado)"/>  
+   	            </div>
+   	            <div>
+                    <label for="prof">Professor / Pesquisador / Outro</label>
+                    <input type="radio" name="formacao" id="prof" value="Professor(a), pesquisador(a) ou outro"/>  
+   	            </div>
+            </div>
+            <p>           
+                <button type="submit" class="w3-button w3-block w3-black">Cadastrar-se</button>
+  </form>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.google.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ipank0</a></p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+    </body>
+</html>
