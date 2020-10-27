@@ -39,3 +39,7 @@
 .invert{ 
     filter: invert(100%);
 }
+.container {
+  display: flex;
+  justify-content: space-around;
+}
