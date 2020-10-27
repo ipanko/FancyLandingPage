@@ -1,4 +1,4 @@
-/* Estilo dos Botões (By Victor Maia)*/
+/* Estilo dos Botões*/
 .sub {
     background-color: #0086be;
     border: none;
@@ -37,5 +37,5 @@
 }
 /* Filtro */
 .invert{ 
-    filter: invert(100%)
+    filter: invert(100%);
 }
