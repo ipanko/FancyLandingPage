@@ -36,4 +36,6 @@
     padding: 100px 0 100px 0;
 }
 /* Filtro */
-.invert { filter: invert(100%); }
+.invert{ 
+    filter: invert(100%)
+}
